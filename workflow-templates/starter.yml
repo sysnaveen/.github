@@ -1,13 +1,14 @@
 name: starter
 on:
-  push: [$default-branch]
+  push: 
+    branches: [$default-branch]
   workflow_dispatch:
 
-job:
+jobs:
   az-cli:
     name: "azure setup"
     runs-on: ubuntu-latest
-  steps:
+    steps:
     - name: setup
       run: az cli
 
