@@ -1,0 +1,6 @@
+{
+    "name": "naveensys Starter Workflow",
+    "description": "naveensys workflow.",
+    "categories": ["setup azure Config"],
+    "filePatterns": ["package.json$"]
+}
