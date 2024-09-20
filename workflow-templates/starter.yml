@@ -1,6 +1,6 @@
 name: starter
 on:
-  push: [$(default)]
+  push: [$default-branch]
   workflow_dispatch:
 
 job:
