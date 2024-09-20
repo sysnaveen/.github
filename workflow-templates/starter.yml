@@ -1,0 +1,17 @@
+name: starter
+on:
+  push: [$(default)]
+  workflow_dispatch:
+
+job:
+  az-cli:
+    name: "azure setup"
+    runs-on: ubuntu-latest
+  steps:
+    - name: setup
+      run: az cli
+
+    - name: print vars
+      run: echo vars
+    
+  
